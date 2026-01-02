@@ -28,7 +28,7 @@ public class Main {
             System.out.println("0. Exit");
             System.out.print("Enter choice (0-6): ");
 
-            // Exception handling for menu choice
+            // Exception handling
             try {
                 choice = sc.nextInt();
                 sc.nextLine(); // clear buffer
@@ -135,8 +135,8 @@ public class Main {
 
             } catch (InputMismatchException e) {
                 System.out.println("Invalid menu choice! Enter an integer between 0 and 6.");
-                sc.nextLine(); // clear invalid input
-                choice = -1; // force loop to continue
+                sc.nextLine();
+                choice = -1;
             }
 
         } while (choice != 0);

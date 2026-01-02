@@ -49,7 +49,6 @@ public class TravelPackage {
         this.availableSeats = availableSeats;
     }
 
-    // Business methods
     public boolean checkAvailability(int seatsRequested) {
         return availableSeats >= seatsRequested;
     }
