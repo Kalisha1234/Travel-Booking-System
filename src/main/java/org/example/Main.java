@@ -12,8 +12,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         List<TravelPackage> packages = new ArrayList<>();
-        Admin admin = new Admin(1, "Admin", "admin@gmail.com", "1234567890", "admin123");
-        UserManagement user = new UserManagement(2, "User", "user@gmail.com", "9876543210", "user123");
+        Admin admin = new Admin(1, "Admin", "admin@gmail.com", "0240000000", "admin123");
+        UserManagement user = new UserManagement(2, "User", "user@gmail.com", "0500000000", "user123");
 
         int choice;
 
@@ -25,7 +25,6 @@ public class Main {
             System.out.println("4. View Travel Packages");
             System.out.println("5. User - Login");
             System.out.println("6. User - View My Bookings");
-            System.out.println("0. Exit");
             System.out.print("Enter choice (0-6): ");
 
             // Exception handling
@@ -128,9 +127,6 @@ public class Main {
                         user.viewBookings();
                     }
 
-                    case 0 -> System.out.println("Exiting system...");
-
-                    default -> System.out.println("Invalid choice! Enter 0-6.");
                 }
 
             } catch (InputMismatchException e) {
