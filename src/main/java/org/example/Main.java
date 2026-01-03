@@ -41,7 +41,7 @@ public class Main {
                             sc.nextLine();
 
                             System.out.print("Destination (String): ");
-                            String dest = sc.nextLine();
+                            String destination = sc.nextLine();
 
                             System.out.print("Start Date (YYYY-MM-DD): ");
                             String start = sc.nextLine();
@@ -56,7 +56,7 @@ public class Main {
                             int seats = sc.nextInt();
                             sc.nextLine();
 
-                            TravelPackage tp = new TravelPackage(id, dest, start, end, price, "N/A", seats);
+                            TravelPackage tp = new TravelPackage(id, destination, start, end, price, "N/A", seats);
                             admin.addTravelPackage(packages, tp);
 
                         } catch (InputMismatchException e) {
