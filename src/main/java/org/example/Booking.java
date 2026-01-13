@@ -15,7 +15,7 @@ public class Booking {
 
     @Override
     public String toString() {
-        return "Booking Details /n" +
+        return "Booking Details \n" +
                 "BookingId= " + bookingId +
                 ", Booking Date:'" + bookingDate + '\'' +
                 ", Number Of Seats: " + numberOfSeats +

@@ -25,6 +25,7 @@ public class UserManagement {
     }
 
     // Register user: boolean for success or failure when registering
+
     public boolean registerUser(int userID, String name, String email, String phoneNumber, String password) {
         if (name == null || email == null || password == null) {
             return false;
