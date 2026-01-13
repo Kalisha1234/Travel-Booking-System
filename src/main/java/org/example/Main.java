@@ -14,7 +14,6 @@ public class Main {
         List<TravelPackage> packages = new ArrayList<>();
         Admin admin = new Admin(1, "Admin", "admin@gmail.com", "0240000000", "admin123");
         UserManagement user = new UserManagement(2, "User", "user@gmail.com", "0500000000", "user123");
-
         int choice;
 
         do {
