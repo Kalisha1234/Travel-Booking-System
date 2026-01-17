@@ -121,7 +121,6 @@ public class Main {
                             System.out.println("Invalid credentials!");
                         }
                     }
-
                     case 6 -> { // View Bookings
                         user.viewBookings();
                     }
